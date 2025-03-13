@@ -16,7 +16,7 @@ A simple Python utility that automatically organizes files in a watched director
 1. Clone this repository:
 
    ```
-   git clone https://github.com/yourusername/file-manager.git
+   git clone https://github.com/romaindez/file-manager.git
    cd file-manager
    ```
 
