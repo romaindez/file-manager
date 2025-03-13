@@ -47,6 +47,16 @@ python file_manager.py /path/to/your/directory
 
 You can modify the `EXTENSION_MAPPINGS` dictionary in the script to customize the categories and file extensions.
 
+### Changing the Watched Directory
+
+The script monitors your Downloads folder by default:
+
+```python
+WATCH_DIRECTORY = os.path.expanduser("~/Downloads")
+```
+
+To change the watched directory, you can edit the `WATCH_DIRECTORY` variable in the script directly
+
 ## How It Works
 
 The script creates the following category folders in the watched directory:
@@ -77,10 +87,6 @@ When a new file is detected in the watched directory, the script:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-
-Romain Mendez
-
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project:
@@ -103,3 +109,7 @@ This software is provided "as is" without warranty of any kind, either express o
 - Use the tool responsibly and at your own risk.
 
 By using File Manager, you acknowledge and accept these risks and limitations.
+
+## Author
+
+[Romain Mendez](https://github.com/romaindez)
