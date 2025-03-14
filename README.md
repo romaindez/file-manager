@@ -100,7 +100,7 @@ Please ensure your code follows the existing style and includes appropriate docu
 
 ## Disclaimer
 
-This software is provided "as is" without warranty of any kind, either express or implied. The author and contributors are not responsible for any damages, data loss, or consequences that may arise from using this PDF manipulation tool. Users should:
+This software is provided "as is" without warranty of any kind, either express or implied. The author and contributors are not responsible for any damages, data loss, or consequences that may arise from using this file manipulation tool. Users should:
 
 - Verify the output files after using the tool.
 - Exercise caution when handling sensitive or important documents.
