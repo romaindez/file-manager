@@ -22,7 +22,7 @@ A simple Python utility that automatically organizes files in a watched director
 
 2. Install the required dependencies:
    ```
-   pip install watchdog
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -37,7 +37,13 @@ python file_manager.py
 
 ### Custom Directory
 
-Specify a custom directory to monitor:
+The script monitors your Downloads folder by default:
+
+```python
+WATCH_DIRECTORY = os.path.expanduser("~/Downloads")
+```
+
+To change the watched directory, you can edit the `WATCH_DIRECTORY` variable in the script directly or pass the directory path as an argument:
 
 ```
 python file_manager.py /path/to/your/directory
@@ -48,14 +54,6 @@ python file_manager.py /path/to/your/directory
 You can modify the `EXTENSION_MAPPINGS` dictionary in the script to customize the categories and file extensions.
 
 ### Changing the Watched Directory
-
-The script monitors your Downloads folder by default:
-
-```python
-WATCH_DIRECTORY = os.path.expanduser("~/Downloads")
-```
-
-To change the watched directory, you can edit the `WATCH_DIRECTORY` variable in the script directly
 
 ## How It Works
 
